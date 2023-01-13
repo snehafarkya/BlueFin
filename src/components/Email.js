@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Email() {
   return (
-    <div className="md:w-1/2 mx-4  m-auto grid grid-rows-1 place-items-center mb-20">
+    <div className="md:w-1/2 mx-4  md:m-auto grid grid-rows-1 place-items-center mb-20">
       <div class="max-w-3xl p-6  border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
