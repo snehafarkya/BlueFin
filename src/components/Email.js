@@ -16,12 +16,12 @@ export default function Email() {
         <div className="mail flex justify-between gap-4">
           <input
             type="email"
-            className="p-2 rounded-lg bg-transparent text-lg w-9/12 border-2 border-gray-100 "
+            className="p-2 rounded-lg bg-none text-lg w-9/12 border-2 border-gray-900 outline-gray-900 "
             placeholder="Enter your email"
           />
           <a
             href="#"
-            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-900 rounded-lg hover:bg-sky-900 focus:ring-4 focus:outline-none focus:ring-blue-300  dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
             Subscribe
             <svg
