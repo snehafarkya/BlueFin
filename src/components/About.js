@@ -21,18 +21,18 @@ export default function About() {
       <div className="h-full mx-auto px-6 md:px-0 md:pt-6 md:-ml-6 relative">
         <div className="bg-white lg:h-full p-6 -mt-6 md:mt-0 relative mb-4 md:mb-0 flex flex-wrap md:flex-wrap items-center">
           <div className="w-full lg:w-1/5 lg:border-right lg:border-solid text-center md:text-left">
-            <h3>Saint Basil's Cathedral</h3>
-            <p className="mb-0 mt-3 text-grey-dark text-sm italic">Moscow - Russia</p>
+            <h3>Sneha Farkya</h3>
+            <p className="mb-0 mt-3 text-grey-dark text-sm italic">India</p>
             <hr className="w-1/4 md:ml-0 mt-4  border lg:hidden"/>
           </div>
           
           <div className="w-full lg:w-3/5 lg:px-3">
             <p className="text-md mt-4 lg:mt-0 text-justify md:text-left text-sm text-blue-900 font-bold" >
-            The Cathedral of Vasily the Blessed (Russian: Василия Блаженного, Sobor Vasiliya Blazhennogo), commonly known as Saint Basil's Cathedral, is a church in Red Square in Moscow, Russia. The building, now a museum, is officially known as the Cathedral of the Intercession of the Most Holy Theotokos on the Moat (Russian:  Покрова Пресвятой Богородицы, что на Рву, Sobor Pokrova Presvyatoy Bogoroditsy, chto na Rvu) or Pokrovsky Cathedral (Russian: Покровский ).[5] It was built from  on orders from Ivan the Terrible and commemorates the capture of Kazan and Astrakhan.
+            The time period from the formation of the Earth (4.5 Ga) to the establishment of plate tectonics at the beginning of the Proterozoic (2.5 Ga) remains largely hidden and unknown. During this time period, the ocean, atmosphere, and continents formed, and the geochemical and physical processes that allowed the development and evolution of life were established. Our knowledge of these beginnings is scant, with theories changing as each new line of evidence emerges. Perhaps most troubling is that we have no coherent, unified theory that simplifies our understanding of the Earth's beginnings.
             </p>
           </div>
           <div className="w-full lg:w-1/5 mt-6 lg:mt-0 lg:px-4 text-center md:text-left">
-            <button className="bg-white hover:bg-grey-darker hover:text-white border border-solid border-grey w-1/3 lg:w-full py-2">Visit now</button>
+            <button className="bg-white hover:bg-blue-900 hover:text-white border border-solid border-grey w-1/3 lg:w-full py-2"> <a href="https://www.tandfonline.com/doi/abs/10.2747/0020-6814.44.2.137?journalCode=tigr20"> Visit now</a></button>
           </div>
         </div>
       </div>
