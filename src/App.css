@@ -6,7 +6,7 @@ body{
 }
 .home-con{
   /* background-image: url("./assets/bgimg.jpg"); */
-height: 100vh;
+/* height: 100vh; */
 overflow: hidden;
 background-size: cover;
 
