@@ -26,7 +26,7 @@ export default function StepCard() {
             </svg>
           </span>
           <h3 class="font-medium leading-tight text-gray-100">Pacific Occean</h3>
-          <p class="text-sm text-gray-400">It contains more than half of the free water on Earth, spanning around 63 million square miles. </p>
+          <p class="text-sm text-gray-200">It contains more than half of the free water on Earth, spanning around 63 million square miles. </p>
         </li>
         <li class="mb-10 ml-6">
           <span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-gray-700">
@@ -45,7 +45,7 @@ export default function StepCard() {
             </svg>
           </span>
           <h3 class="font-medium leading-tight text-gray-100">Atlantic Occean</h3>
-          <p class="text-sm text-gray-400">This ocean basin makes up 20% of the Earth’s surface. </p>
+          <p class="text-sm text-gray-200">This ocean basin makes up 20% of the Earth’s surface. </p>
         </li>
         <li class="mb-10 ml-6">
           <span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-gray-700">
@@ -65,7 +65,7 @@ export default function StepCard() {
             </svg>
           </span>
           <h3 class="font-medium leading-tight text-gray-100">Indian Occean</h3>
-          <p class="text-sm text-gray-400">Step details here</p>
+          <p class="text-sm text-gray-200">Step details here</p>
         </li>
         <li class="mb-10 ml-6">
           <span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-gray-700">
@@ -85,7 +85,7 @@ export default function StepCard() {
             </svg>
           </span>
           <h3 class="font-medium leading-tight text-gray-100">Southern Occean</h3>
-          <p class="text-sm text-gray-400">Step details here</p>
+          <p class="text-sm text-gray-200">Step details here</p>
         </li>
         <li class="mb-2 ml-6">
           <span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-gray-700">
@@ -105,7 +105,7 @@ export default function StepCard() {
             </svg>
           </span>
           <h3 class="font-medium leading-tight text-gray-100">Arctic Occean</h3>
-          <p class="text-sm text-gray-400">Step details here</p>
+          <p class="text-sm text-gray-200">Step details here</p>
         </li>
       </ol>
     </div>
