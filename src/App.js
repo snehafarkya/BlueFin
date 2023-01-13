@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import StepCard from './components/StepCard';
 import StayCard from './components/StayCard';
+import Email from './components/Email';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
       <About/>
       <StepCard/>
       <StayCard/>
+      <Email/>
     </div>
   );
 }
