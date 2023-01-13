@@ -9,8 +9,8 @@ import Card6 from "./Cards/Card6";
 export default function StayCard() {
   return (
     <div>
-      <div class="flex flex-col w-3/4 m-auto p-auto mb-20">
-        <h1 class="flex py-5 lg:px-5 md:px-10 px-5 lg:mx-40 md:mx-20 mx-5 my-10 font-bold text-2xl text-gray-100">
+      <div class="flex flex-col w-3/4 m-auto  mb-20">
+        <h1 class="flex  lg:px-5 md:px-10 lg:mx-40 md:mx-20 md:my-10 my-5 text-justify font-bold text-2xl text-gray-100">
           Looking for best Water-Vacay? Don't worry! These are some best
           staycations next to your waterBay
         </h1>
