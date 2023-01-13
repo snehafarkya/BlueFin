@@ -14,8 +14,7 @@ export default function Home() {
       </video>
       <Navbar/>
       <Hero/>
-      <About/>
-      <StepCard/>
+      
     </div>
   )
 }
