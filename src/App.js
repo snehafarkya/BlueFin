@@ -6,6 +6,7 @@ import About from './components/About';
 import StepCard from './components/StepCard';
 import StayCard from './components/StayCard';
 import Email from './components/Email';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <StepCard/>
       <StayCard/>
       <Email/>
+      <Footer/>
     </div>
   );
 }
