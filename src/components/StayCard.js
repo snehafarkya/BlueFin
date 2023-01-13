@@ -10,12 +10,12 @@ export default function StayCard() {
   return (
     <div>
       <div class="flex flex-col md:w-3/4  m-auto  mb-20 flex justify-center w-11/12">
-        <h1 class="flex  lg:px-5 md:px-10 lg:mx-40 md:mx-20 md:my-10 my-5 text-justify font-bold text-xl  md:text-2xl text-gray-100">
+        <h1 class="flex  lg:px-5 md:px-10 lg:mx-40 md:mx-20 md:my-20 my-20 text-justify font-bold text-xl  md:text-2xl text-gray-100">
           Looking for best Water-Vacay? Don't worry! These are some best
           staycations next to your waterBay
         </h1>
         <div class="flex overflow-x-scroll pb-10 hide-scroll-bar w-full m-auto ">
-          <div class="flex flex-nowrap  md:ml-20  ">
+          <div class="flex flex-nowrap   ">
             <div class="inline-block px-3">
               <div class="w-screen h-max max-w-xs overflow-hidden rounded-lg shadow-md  hover:shadow-xl transition-shadow duration-300 ease-in-out">
                 <Card1 />
