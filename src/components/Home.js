@@ -3,6 +3,7 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import bgvid from '../assets/bgvid.mp4';
 import About from './About';
+import StepCard from './StepCard';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <About/>
+      <StepCard/>
     </div>
   )
 }
