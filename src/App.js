@@ -4,6 +4,7 @@ import Form from './components/Form';
 import Home from './components/Home';
 import About from './components/About';
 import StepCard from './components/StepCard';
+import StayCard from './components/StayCard';
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       </Routes>
       <About/>
       <StepCard/>
+      <StayCard/>
     </div>
   );
 }

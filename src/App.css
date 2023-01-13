@@ -44,6 +44,15 @@ background-size: cover;
 .about-img{
   background-image: url('./assets/occean.webp');
 }
-.about-btn:hover{
-
+.deepbtn:hover{
+transform: scale(1.1);
+transition: all 0.5s ease-in-out;
+filter: drop-shadow(4px 2px 20px #40a9e9);
+}
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
 }

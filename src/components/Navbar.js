@@ -15,16 +15,16 @@ export default function Navbar() {
         </a>
         {/* <!-- Nav Links --> */}
         <ul className="hidden md:flex px-5 mx-auto font-semibold font-heading space-x-12">
-          <li><a className="hover:text-hotpink font-bold" href="#">Home</a></li>
-          <li><a className="hover:text-hotpink font-bold" href="#">About</a></li>
-          <li><a className="hover:text-hotpink font-bold" href="#">Oceanic</a></li>
-          <li><a className="hover:text-hotpink font-bold" href="#">Stay</a></li>
+          <li><a className="hover:text-blue-900 hover:font-bold font-bold" href="#">Home</a></li>
+          <li><a className="hover:text-blue-900 hover:font-bold font-bold" href="#">About</a></li>
+          <li><a className="hover:text-blue-900 hover:font-bold font-bold" href="#">Oceanic</a></li>
+          <li><a className="hover:text-blue-900 hover:font-bold font-bold" href="#">Stay</a></li>
           
         </ul>
         {/* <!-- Header Icons --> */}
         <div className="hidden xl:flex space-x-5 flex-row">
           {/* <!-- Sign In / Register      --> */}
-          <button className=" text-white flex flex-row gap-x-2 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 " type="button">
+          <button className=" text-white flex flex-row gap-x-2 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 hover:bg-sky-900 " type="button">
         <a className="flex  hover:text-gray-200"> <Link to="/login">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:text-gray-200" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
