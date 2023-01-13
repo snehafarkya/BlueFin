@@ -8,7 +8,7 @@ import StepCard from './StepCard';
 export default function Home() {
   return (
     <div className='home-con block flex-column ' >
-           <video  autoPlay loop muted id='video' className='md:block' >
+           <video  autoPlay loop muted id='video'  >
         <source src={bgvid} type="video/mp4" />
         
       </video>

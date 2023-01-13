@@ -1,6 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Poppins:wght@200;400&display=swap');
 body{
   background-color: #1d3867;
+  background-size: cover;
   background-image: url('https://uploads-ssl.webflow.com/62a6e21010ae344f137a2769/62df788d8c33b8614696c2ff_shutterstock_1009352120-transcode.mp4 ');
 }
 .home-con{
@@ -55,4 +56,13 @@ filter: drop-shadow(4px 2px 20px #40a9e9);
 }
 .hide-scroll-bar::-webkit-scrollbar {
   display: none;
+}
+@media  screen and (max-width:500px) {
+#video{
+  display: none;
+}
+body{
+  background-image: url('./assets/bgg.png');
+
+}
 }
