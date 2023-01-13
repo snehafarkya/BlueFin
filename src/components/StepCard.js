@@ -2,7 +2,7 @@ import React from "react";
 
 export default function StepCard() {
   return (
-    <div className="grid grid-rows-1 place-items-center md:w-1/2 w-full mb-20 m-auto px-5 mt-40 gap-2 rounded-lg">
+    <div className="grid grid-rows-1 place-items-center md:w-1/2 w-full mb-20 m-auto px-5 md:mt-40 mt-20 gap-2 rounded-lg">
       <p className="md:m-10 m-5 text-justify md:text-center text-lg font-semibold text-blue-100">
         More than 70% of the Earth's surface is covered in water, according to
         the U.S. Geological survey and of that water, more than 96% of it is

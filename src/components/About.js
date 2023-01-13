@@ -3,7 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div id="about">
-      <div className="container mt-32 mb-32 mx-auto p-4 md:p-0 ">
+      <div className="container md:mt-32 mt-20 mb-32 mx-auto p-4 md:p-0 ">
         <div className="shadow-lg flex flex-wrap w-full  lg:w-4/5 mx-auto ">
           <div className="about-img bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative">
             <div className="absolute text-xl ">
