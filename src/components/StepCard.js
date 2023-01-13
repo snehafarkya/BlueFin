@@ -8,7 +8,7 @@ export default function StepCard() {
         the U.S. Geological survey and of that water, more than 96% of it is
         contained in one of earth's five oceans. Here are the five ocean basins from largest to smallest, based on area, according to National Oceanic and Atmospheric Administration. 
       </p>
-      <ol class="relative p-4 text-gray-500 border-l border-gray-200 dark:border-gray-700 dark:text-gray-400">
+      <ol class="relative mx-4 text-gray-500 border-l border-gray-200 dark:border-gray-700 dark:text-gray-400">
         <li class="mb-10 ml-6">
           <span class="absolute flex items-center justify-center w-8 h-8 bg-green-200 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
             <svg
@@ -87,7 +87,7 @@ export default function StepCard() {
           <h3 class="font-medium leading-tight text-gray-100">Southern Occean</h3>
           <p class="text-sm text-gray-400">Step details here</p>
         </li>
-        <li class="mb-10 ml-6">
+        <li class="mb-2 ml-6">
           <span class="absolute flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-gray-700">
             <svg
               aria-hidden="true"
