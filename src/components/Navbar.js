@@ -4,10 +4,10 @@ export default function Navbar() {
   return (
     <div>
 
-<div className="flex flex-wrap fixed z-50 bg-cyan-900 md:bg-transparent">
+<div id='navbar' className="flex flex-wrap fixed z-50 md:bg-transparent" >
   <section className="relative mx-auto">
       {/* <!-- navbar --> */}
-    <nav className="flex justify-between  text-white w-screen">
+    <nav className="flex justify-between  text-white w-screen" >
       <div className="px-5 xl:px-12 py-6 flex w-full items-center">
         <a className="text-3xl font-bold font-heading" href="#" >
           {/* <!-- <img className="h-9" src="logo.png" alt="logo"> --> */}
