@@ -7,7 +7,7 @@ import About from './About';
 export default function Home() {
   return (
     <div className='home-con block flex-column ' >
-           <video  autoPlay loop muted id='video' >
+           <video  autoPlay loop muted id='video' className='md:block' >
         <source src={bgvid} type="video/mp4" />
         
       </video>
