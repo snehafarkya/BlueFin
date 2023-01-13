@@ -5,15 +5,15 @@ export default function About() {
     <div id="about">
       <div className="container md:mt-32 mt-20 mb-32 mx-auto p-4 md:p-0 ">
         <div className="shadow-lg flex flex-wrap w-full  lg:w-4/5 mx-auto ">
-          <div className="about-img bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative rounded-tl-lg rounded-bl-lg">
+          <div className="about-img bg-cover bg-bottom border w-full md:w-1/3 h-64 md:h-auto relative rounded-tl-lg md:rounded-bl-lg rounded-tr-lg md:rounded-tr-none">
             <div className="absolute text-xl ">
               <i className="fa fa-heart text-white hover:text-red-light ml-4 mt-4 cursor-pointer"></i>
             </div>
           </div>
 
-          <div className="bg-white w-full h-5/6 md:w-2/3 rounded-tr-lg rounded-br-lg ">
+          <div className="bg-white w-full h-5/6 md:w-2/3 md:rounded-tr-lg rounded-br-lg  rounded-bl-lg md:rounded-bl-none ">
             <div className="h-full mx-auto px-6 md:px-0 md:pt-6 md:-ml-6 relative ">
-              <div className="bg-white lg:h-full p-6 -mt-6 md:mt-0 relative mb-4 md:mb-0 flex flex-wrap md:flex-wrap items-center rounded-tr-lg rounded-br-lg">
+              <div className="bg-white lg:h-full p-6 -mt-6 md:mt-0 relative mb-4 md:mb-0 flex flex-wrap md:flex-wrap items-center md:rounded-br-lg">
                 <div className="w-full lg:w-1/5 lg:border-right lg:border-solid text-center md:text-left ">
                   <h3>Sneha Farkya</h3>
                   <p className="mb-0 mt-3 text-grey-dark text-sm italic">
