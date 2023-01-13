@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <div>
 
-<div className="flex flex-wrap fixed">
+<div className="flex flex-wrap fixed z-50">
   <section className="relative mx-auto">
       {/* <!-- navbar --> */}
     <nav className="flex justify-between  text-white w-screen">
