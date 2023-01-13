@@ -3,12 +3,12 @@ import React from "react";
 export default function StepCard() {
   return (
     <div className="grid grid-rows-1 place-items-center md:w-1/2 w-full mb-20 m-auto px-5 mt-40 gap-2 rounded-lg">
-      <p className="m-10 text-center text-lg font-semibold text-blue-100">
+      <p className="md:m-10 m-5 text-justify md:text-center text-lg font-semibold text-blue-100">
         More than 70% of the Earth's surface is covered in water, according to
         the U.S. Geological survey and of that water, more than 96% of it is
         contained in one of earth's five oceans. Here are the five ocean basins from largest to smallest, based on area, according to National Oceanic and Atmospheric Administration. 
       </p>
-      <ol class="relative text-gray-500 border-l border-gray-200 dark:border-gray-700 dark:text-gray-400">
+      <ol class="relative p-4 text-gray-500 border-l border-gray-200 dark:border-gray-700 dark:text-gray-400">
         <li class="mb-10 ml-6">
           <span class="absolute flex items-center justify-center w-8 h-8 bg-green-200 rounded-full -left-4 ring-4 ring-white dark:ring-gray-900 dark:bg-green-900">
             <svg
